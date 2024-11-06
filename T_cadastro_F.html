@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadastroF</title>
+    <link rel="stylesheet" href="../Fornecedor/T_cadastro_F.css">
+</head>
+
+<body>
+    <div class="pBranco">
+
+        <img class="logo" src="../fotos/logoBN-removebg-preview.png" alt="Logo_Foda">
+
+        <h1 class="bv">Bem vindo!</h1>
+<div class="texto">
+        <h1 class="login">Já tem conta?</h1>
+        <h1 class="login">Faça o Login</h1>
+</div>
+        <div class="botaoInput">
+            <a href="../Fornecedor/T_login_F.html"><button class="input" type="button" onclick="">login</button></a>
+
+            <a href="../navegacao/T-inicio.html"> <button class="input" type="button" onclick="">voltar</button></a>
+        </div>
+
+    </div>
+
+    <div class="pRoxo">
+        <h2 class="tituloCadastro">Faça o cadastro</h2>
+
+        <div class="cadastro">
+            <input class="carlos" type="name" placeholder="Nome" id="nome"><br>
+            <input class="carlos" type="number" placeholder="CNPJ" id="CNPJ"><br>
+            <input class="carlos" type="email" placeholder="E-mail" id="email"><br>
+            <input class="carlos" type="password" placeholder="Senha" id='senha'><br>
+            <input class="carlos" type="password" placeholder="confirmar senha" id="confirmarSenha"><br>
+        </div>
+        <div class="botoes">
+
+            <dialog id="modal">
+                <p>Senhas diferentes!!!</p>
+                <button class="modal" type="button" onclick="fechar()">Ok</button>
+            </dialog>
+
+            <div>
+                <button class="input" type="button" onclick=cadastrar()>Cadastrar</button><br>
+            </div>
+            <div >
+                <a href=../Cliente/T_cadastro.html><button class="souFornecedor" type="button" onclick="">Sou um cliente</button></a>
+            </div>
+
+        </div>
+<script src="../Fornecedor/T_CL_F.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="T_cadastroProduto.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <img class="logo"src="../fotos/logoBN-removebg-preview.png" alt="">
+
+        <div class="bnavbar">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div id="main">
+        <h2>Modal Example</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Cadastro de Produto</h1>
+                <input type="text" id="nome" placeholder="Nome do Produto" required>
+                <input type="number" id="preco" placeholder="Preço do Produto" required>
+                <input type="text" id="descricao" placeholder="Descrição do Produto" required>
+                <input type="text" id="imagem" placeholder="URL da imagem" required>
+                <button type="button" onclick="cadastrarProduto()">Cadastrar Produto</button>
+
+
+            </div>
+        </div>
+        <<div class="produtosCadastrados" >
+            <div id="produtos">
+                <h2>Produtos Cadastrados</h2>
+                <ul id="listaProdutos"></ul>    
+                <button onclick="limparProdutos()">Limpar lista</button>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="../Fornecedor/T_cadastroProduto.js"></script>
+</body>
+
+</html>

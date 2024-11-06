@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadatroC</title>
+    <link rel="stylesheet" href="../Cliente/T_cadastro.css">
+    <script src="../Cliente/T_CL.js"></script>
+</head>
+
+<body>
+    <div class="pBranco">
+
+        <img class="logo" src="../fotos/logoBN-removebg-preview.png" alt="Logo_Foda">
+
+        <h1 class="bv">Bem vindo!</h1>
+<div class="texto">
+        <h1 class="login">Já tem conta?</h1>
+        <h1 class="login">Faça o Login</h1>
+</div>
+        <div class="botaoInput">
+            <a href="../Cliente/T_login.html"> <button class="input" type="button" onclick="">login</button></a>
+
+            <a href="../navegacao/T-inicio.html"> <button class="input" type="button" onclick="">voltar</button></a>
+        </div>
+
+    </div>
+
+    <div class="pRoxo">
+        <h2 class="tituloCadastro">Faça o cadastro</h2>
+
+        <div class="cadastro">
+            <input id="nome" class="carlos" type="text" placeholder="Nome"><br>
+            <input id="email" class="carlos" type="email" placeholder="E-mail"><br>
+            <input id="senha" class="carlos" type="password" placeholder="Senha"><br>
+            <input id="confirmarSenha" class="carlos" type="password" placeholder="confirmar senha"><br>
+        </div>
+
+        <dialog id="modal">
+            <p class="senhaDiferente">Senhas diferentes!!!</p>
+            <button class="modal" type="button" onclick="fechar()">Ok</button>
+        </dialog>
+
+        <div class="botoes">
+
+            <div>
+                <button class="input" type="submit" onclick="cadastrar()">Cadastrar</button><br>
+            </div>
+            <div>
+                <a href="../Fornecedor/T_cadastro_F.html"><button class="souFornecedor" type="button" onclick="">Sou um
+                        fornecedor</button></a>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
