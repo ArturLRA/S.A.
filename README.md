@@ -26,10 +26,18 @@ Esse projeto é organizado por versões, na aba *Versões do projeto*, vão esta
 * Criação de tela de perfil para adicionar e deletar produtos para o site.
 * Implementação de *LocalStorage* para Cadastro e Login de Clientes e Fornecedores.
 * Implementação de *LocalStorage* para adicionar e remover produtos.
-* Implementação de *Modal* para a tela de cadastro de cliente.
-* Implementação de *Modal* para a tela de cadastro de cliente.
+* Implementação de *Modal* para a tela de cadastro de Cliente.
+* Implementação de *Modal* para a tela de cadastro de Fornecedor.
 
-<h2>Versão mais recente: 1.0.</h2>
+**Versão 1.1.:**
+*Implementação de função para inserir produtos adicionados na tela principal.
+*Estilização dos produtos da tela principal.
+*Remoção de *Modal* para a tela de cadastro de Cliente.
+*Remoção de *Modal* para a tela de cadastro de Fornecedor.
+*Implementação de *Barra de Navegação*.
+*Criação de botão para a visualização das informações do usuário logado.
+
+<h2>Versão mais recente: 1.1.</h2>
 
 <h1 align=center> <img style="border-radius: 50%;" src="https://img.shields.io/badge/Status-Em Progresso-blue" width="100px;" alt=""/> </h1>
 
