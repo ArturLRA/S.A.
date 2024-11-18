@@ -30,12 +30,16 @@ Esse projeto é organizado por versões, na aba *Versões do projeto*, vão esta
 * Implementação de *Modal* para a tela de cadastro de Fornecedor.
 
 **Versão 1.1.:**
-*Implementação de função para inserir produtos adicionados na tela principal.
-*Estilização dos produtos da tela principal.
-*Remoção de *Modal* para a tela de cadastro de Cliente.
-*Remoção de *Modal* para a tela de cadastro de Fornecedor.
-*Implementação de *Barra de Navegação*.
-*Criação de botão para a visualização das informações do usuário logado.
+
+*Recursos Adicionados:*
+* Implementação de função para inserir produtos adicionados na tela principal.
+* Estilização dos produtos da tela principal.
+* Implementação de *Barra de Navegação*.
+* Criação de botão para a visualização das informações do usuário logado.
+
+*Recursos Removidos:*
+* Remoção de *Modal* para a tela de cadastro de Cliente.
+* Remoção de *Modal* para a tela de cadastro de Fornecedor.
 
 <h2>Versão mais recente: 1.1.</h2>
 
